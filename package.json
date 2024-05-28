@@ -1,0 +1,30 @@
+{
+  "name": "seminar5",
+  "version": "1.0.0",
+  "description": "seminar 5 for EA",
+  "main": "./dist/app.js",
+  "scripts": {
+    "test": "ts-node ./lib/app.ts",
+    "dev": "tsc && nodemon ./dist/app.js",
+    "prod": "tsc && nodemon ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertguarneros/seminar5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robertguarneros/seminar5/issues"
+  },
+  "homepage": "https://github.com/Robertguarneros/seminar5#readme",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.2.0",
+    "nodemon": "^3.1.0",
+    "socket.io": "^2.4.1"
+  }
+}
